@@ -2,7 +2,7 @@ name: "🐛 Bug Report"
 description: Report a bug.
 title: "🐛 Bug Report"
 type: 'Bug'
-assignees: ''
+assignees: []
 
 body:
   - type: textarea
