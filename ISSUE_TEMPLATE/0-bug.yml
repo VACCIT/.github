@@ -1,0 +1,36 @@
+name: "🐛 Bug Report"
+description: Report a bug.
+title: "🐛 Bug Report"
+type: 'Bug'
+assignees: ''
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce-steps
+    attributes:
+      label: Steps to Reproduce
+      description: Describe the steps to reproduce the bug here.
+    validations:
+      required: true
+
+  - type: input
+    id: expected-behaviour
+    attributes:
+      label: Expected Behaviour
+      description: Describe the expected behaviour here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Describe any other relevant information here.
