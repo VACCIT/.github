@@ -1,0 +1,36 @@
+name: "✨ Feature Request"
+description: Request a new feature.
+title: "✨ Feature Request"
+type: Feature
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the new feature here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List the acceptance criteria here.
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Describe any other relevant information here if applicable.
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Provide screenshots here if applicable.
