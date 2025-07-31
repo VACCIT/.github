@@ -1,6 +1,6 @@
-name: "👷 Infrastructure"
+name: "👷 Infrastructure Request"
 description: Request the creation or modification of workflows.
-title: "👷 Infrastructure"
+title: "👷 Infrastructure Request"
 type: Infrastructure
 
 body:

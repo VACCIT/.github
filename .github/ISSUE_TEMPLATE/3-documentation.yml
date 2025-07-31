@@ -1,6 +1,6 @@
-name: "📝 Documentation"
+name: "📝 Documentation Request"
 description: Request the creation or modification of documentation.
-title: "📝 Documentation"
+title: "📝 Documentation Request"
 type: Documentation
 
 body:

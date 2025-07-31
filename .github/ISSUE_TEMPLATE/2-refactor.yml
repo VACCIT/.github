@@ -1,6 +1,6 @@
-name: "♻️ Refactoring"
+name: "♻️ Refactoring Request"
 description: Request refactoring of existing code.
-title: "♻️ Refactoring"
+title: "♻️ Refactoring Request"
 type: Refactoring
 
 body:
