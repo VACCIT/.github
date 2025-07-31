@@ -18,10 +18,14 @@ body:
     attributes:
       label: Steps to Reproduce
       description: Describe the steps to reproduce the bug here.
+      placeholder: |
+        1. Navigate to '...'
+        2. Click on '...'
+        3. Error occurs
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: expected-behaviour
     attributes:
       label: Expected Behaviour
@@ -33,4 +37,10 @@ body:
     id: notes
     attributes:
       label: Notes
-      description: Describe any other relevant information here.
+      description: Describe any other relevant information here if applicable.
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Provide screenshots here if applicable.
