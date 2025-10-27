@@ -1,6 +1,6 @@
-name: ':memo: Documentation'
+name: '📝 Documentation'
 description: Request improvements or additions to documentation.
-title: ':memo: <TITLE>'
+title: '📝 <TITLE>'
 type: Documentation
 labels: ['documentation']
 

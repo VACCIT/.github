@@ -1,6 +1,6 @@
-name: ':recycle: Refactor'
+name: '♻️ Refactor'
 description: Request refactoring of existing code.
-title: ':recycle: <TITLE>'
+title: '♻️ <TITLE>'
 type: Refactor
 labels: ['triage']
 

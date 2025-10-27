@@ -1,6 +1,6 @@
-name: ':construction_worker: Workflow'
+name: '👷 Workflow'
 description: Request improvements or additions to workflows.
-title: ':construction_worker: <TITLE>'
+title: '👷 <TITLE>'
 type: Workflow
 labels: ['triage']
 

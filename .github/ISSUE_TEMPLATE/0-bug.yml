@@ -1,6 +1,6 @@
-name: ':bug: Bug'
+name: '🐛 Bug'
 description: Report an error or bug.
-title: ':bug: <TITLE>'
+title: '🐛 <TITLE>'
 type: Bug
 labels: ['bug', 'triage']
 

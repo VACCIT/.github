@@ -1,6 +1,6 @@
-name: ':sparkles: Feature'
+name: '✨ Feature'
 description: Request a new feature.
-title: ':sparkles: <TITLE>'
+title: '✨ <TITLE>'
 type: Feature
 labels: ['enhancement', 'triage']
 
