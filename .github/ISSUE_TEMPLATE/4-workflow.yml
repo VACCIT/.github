@@ -3,8 +3,14 @@ description: Request improvements or additions to workflows.
 title: '👷 <TITLE>'
 type: Workflow
 labels: ['triage']
+assignees: ['jackreimers']
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Tip: Make sure you replace all <PLACEHOLDERS> before submitting!
+
   - type: textarea
     id: description
     attributes:
