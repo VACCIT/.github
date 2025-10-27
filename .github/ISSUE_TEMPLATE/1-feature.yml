@@ -1,22 +1,31 @@
-name: "✨ Feature"
+name: ':sparkles: Feature'
 description: Request a new feature.
-title: "✨ <TITLE>"
+title: ':sparkles: <TITLE>'
 type: Feature
+labels: ['enhancement', 'triage']
 
 body:
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Describe the new feature here.
+      description: Describe the proposed feature.
     validations:
       required: true
 
   - type: textarea
-    id: acceptance-criteria
+    id: justification
+    attributes:
+      label: Justification
+      description: Describe why the feature is required.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criteria
     attributes:
       label: Acceptance Criteria
-      description: List the acceptance criteria here.
+      description: Provide the acceptance criteria.
       placeholder: |
         1. ...
         2. ...
@@ -28,10 +37,10 @@ body:
     id: notes
     attributes:
       label: Notes
-      description: Describe any other relevant information here.
+      description: Provide any other relevant details.
 
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
-      description: Provide screenshots here.
+      description: Provide screenshots if applicable.

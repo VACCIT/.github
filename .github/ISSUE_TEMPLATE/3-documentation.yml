@@ -1,26 +1,15 @@
-name: "📝 Documentation"
-description: Request the creation or modification of documentation.
-title: "📝 <TITLE>"
+name: ':memo: Documentation'
+description: Request improvements or additions to documentation.
+title: ':memo: <TITLE>'
 type: Documentation
+labels: ['documentation']
 
 body:
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Describe the required changes here.
-    validations:
-      required: true
-
-  - type: textarea
-    id: acceptance-criteria
-    attributes:
-      label: Acceptance Criteria
-      description: List the acceptance criteria here.
-      placeholder: |
-        1. ...
-        2. ...
-        3. ...
+      description: Describe the proposed changes.
     validations:
       required: true
 
@@ -28,10 +17,10 @@ body:
     id: notes
     attributes:
       label: Notes
-      description: Describe any other relevant information here.
+      description: Provide any other relevant details.
 
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
-      description: Provide screenshots here.
+      description: Provide screenshots if applicable.

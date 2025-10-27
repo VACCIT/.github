@@ -1,22 +1,31 @@
-name: "👷 Workflow"
-description: Request the creation or modification of workflows.
-title: "👷 <TITLE>"
+name: ':construction_worker: Workflow'
+description: Request improvements or additions to workflows.
+title: ':construction_worker: <TITLE>'
 type: Workflow
+labels: ['triage']
 
 body:
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Describe the required changes here.
+      description: Describe the proposed changes.
     validations:
       required: true
 
   - type: textarea
-    id: acceptance-criteria
+    id: justification
+    attributes:
+      label: Justification
+      description: Describe why the proposed changes are required.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criteria
     attributes:
       label: Acceptance Criteria
-      description: List the acceptance criteria here.
+      description: Provide the acceptance criteria.
       placeholder: |
         1. ...
         2. ...
@@ -28,10 +37,10 @@ body:
     id: notes
     attributes:
       label: Notes
-      description: Describe any other relevant information here.
+      description: Describe any other relevant details.
 
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
-      description: Provide screenshots here.
+      description: Provide screenshots if applicable.
