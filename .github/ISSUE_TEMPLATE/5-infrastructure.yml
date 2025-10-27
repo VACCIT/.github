@@ -1,6 +1,6 @@
-name: ':bricks: Infrastructure'
+name: ":bricks: Infrastructure"
 description: Request the creation or modification of infrastructure resources.
-title: ':bricks: <TITLE>'
+title: ":bricks: <TITLE>"
 type: Infrastructure
 
 body:
