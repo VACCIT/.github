@@ -1,5 +1,5 @@
-name: '♻️ Refactor'
-description: Request refactoring of existing code.
+name: '♻️ Refactoring'
+description: Request refactoring of existing features.
 title: '♻️ <TITLE>'
 type: Refactor
 labels: ['triage']
