@@ -1,26 +1,24 @@
-name: "♻️ Refactoring"
-description: Request refactoring of existing code.
-title: "♻️ <TITLE>"
-type: Refactoring
+name: "👷 Infrastructure"
+description: Request the creation or modification of infrastructure resources.
+title: "👷 <TITLE>"
+type: Infrastructure
 
 body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: Request Type
+      options:
+        - Create
+        - Modify
+        - Delete
+
   - type: textarea
     id: description
     attributes:
       label: Description
       description: Describe the required changes here.
-    validations:
-      required: true
-
-  - type: textarea
-    id: acceptance-criteria
-    attributes:
-      label: Acceptance Criteria
-      description: List the acceptance criteria here.
-      placeholder: |
-        1. ...
-        2. ...
-        3. ...
     validations:
       required: true
 

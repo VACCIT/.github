@@ -1,6 +1,6 @@
-name: "🐛 Bug Report"
+name: "🐛 Bug"
 description: Report a bug.
-title: "🐛 Bug Report"
+title: "🐛 <TITLE>"
 type: Bug
 
 body:
@@ -18,8 +18,8 @@ body:
       label: Steps to Reproduce
       description: Describe the steps to reproduce the bug here.
       placeholder: |
-        1. Navigate to '...'
-        2. Click on '...'
+        1. Navigate to ...
+        2. Click on ...
         3. Error occurs
     validations:
       required: true
@@ -36,10 +36,10 @@ body:
     id: notes
     attributes:
       label: Notes
-      description: Describe any other relevant information here if applicable.
+      description: Provide any other relevant information here.
 
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
-      description: Provide screenshots here if applicable.
+      description: Provide screenshots here.
