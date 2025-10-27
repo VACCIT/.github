@@ -6,11 +6,6 @@ labels: ['triage']
 assignees: ['jackreimers']
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Tip: Make sure you replace all <PLACEHOLDERS> before submitting!
-
   - type: textarea
     id: description
     attributes:
